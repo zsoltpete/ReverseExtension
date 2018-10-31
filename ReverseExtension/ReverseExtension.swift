@@ -70,6 +70,13 @@ extension UITableViewCell {
 
 extension UITableView {
     public final class ReverseExtension: NSObject {
+
+        #if swift(>=4.2)
+        public typealias UITableViewCellEditingStyle = UITableViewCell.EditingStyle
+        public typealias UITableViewScrollPosition = UITableView.ScrollPosition
+        public typealias UITableViewRowAnimation = UITableView.RowAnimation
+        #endif
+
         private(set) weak var base: UITableView?
         fileprivate var nonNilBase: UITableView {
             guard let base = base else { fatalError("base is nil") }
@@ -458,7 +465,7 @@ extension UITableView.ReverseExtension: UITableViewDataSource {
     }
     
     // Data manipulation - insert and delete support
-    
+
     // After a row has the minus or plus button invoked (based on the UITableViewCellEditingStyle for the cell), the dataSource must commit the change
     // Not called for edit actions using UITableViewRowAction - the action's handler will be invoked instead
     public func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {

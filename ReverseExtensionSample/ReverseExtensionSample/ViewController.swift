@@ -30,7 +30,11 @@ class ViewController: UIViewController {
             print("scrollViewDidReachBottom")
         }
         tableView.estimatedRowHeight = 56
+        #if swift(>=4.2)
+        tableView.rowHeight = UITableView.automaticDimension
+        #else
         tableView.rowHeight = UITableViewAutomaticDimension
+        #endif
     }
 
     override func didReceiveMemoryWarning() {
