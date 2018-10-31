@@ -10,11 +10,10 @@
 		3759094F218A1A240012C7DE /* ReverseExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3759094D218A1A240012C7DE /* ReverseExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		379FE749218A1AD400FD77FB /* ExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 379FE742218A1AD400FD77FB /* ExceptionHandler.m */; };
 		379FE74A218A1AD400FD77FB /* KeyValueObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FE743218A1AD400FD77FB /* KeyValueObserver.swift */; };
-		379FE74B218A1AD400FD77FB /* DelegateTransporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 379FE744218A1AD400FD77FB /* DelegateTransporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		379FE74B218A1AD400FD77FB /* _NSObjectProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 379FE744218A1AD400FD77FB /* _NSObjectProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		379FE74C218A1AD400FD77FB /* ReverseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FE745218A1AD400FD77FB /* ReverseExtension.swift */; };
 		379FE74D218A1AD400FD77FB /* ExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 379FE746218A1AD400FD77FB /* ExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		379FE74E218A1AD400FD77FB /* UITableViewDelegateTransporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FE747218A1AD400FD77FB /* UITableViewDelegateTransporter.swift */; };
-		379FE74F218A1AD400FD77FB /* DelegateTransporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 379FE748218A1AD400FD77FB /* DelegateTransporter.m */; };
+		379FE74F218A1AD400FD77FB /* _NSObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 379FE748218A1AD400FD77FB /* _NSObjectProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +22,10 @@
 		3759094E218A1A240012C7DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		379FE742218A1AD400FD77FB /* ExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionHandler.m; sourceTree = "<group>"; };
 		379FE743218A1AD400FD77FB /* KeyValueObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueObserver.swift; sourceTree = "<group>"; };
-		379FE744218A1AD400FD77FB /* DelegateTransporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateTransporter.h; sourceTree = "<group>"; };
+		379FE744218A1AD400FD77FB /* _NSObjectProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _NSObjectProxy.h; sourceTree = "<group>"; };
 		379FE745218A1AD400FD77FB /* ReverseExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseExtension.swift; sourceTree = "<group>"; };
 		379FE746218A1AD400FD77FB /* ExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionHandler.h; sourceTree = "<group>"; };
-		379FE747218A1AD400FD77FB /* UITableViewDelegateTransporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewDelegateTransporter.swift; sourceTree = "<group>"; };
-		379FE748218A1AD400FD77FB /* DelegateTransporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateTransporter.m; sourceTree = "<group>"; };
+		379FE748218A1AD400FD77FB /* _NSObjectProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _NSObjectProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +58,12 @@
 		3759094C218A1A240012C7DE /* ReverseExtension */ = {
 			isa = PBXGroup;
 			children = (
-				379FE744218A1AD400FD77FB /* DelegateTransporter.h */,
-				379FE748218A1AD400FD77FB /* DelegateTransporter.m */,
+				379FE744218A1AD400FD77FB /* _NSObjectProxy.h */,
+				379FE748218A1AD400FD77FB /* _NSObjectProxy.m */,
 				379FE746218A1AD400FD77FB /* ExceptionHandler.h */,
 				379FE742218A1AD400FD77FB /* ExceptionHandler.m */,
 				379FE743218A1AD400FD77FB /* KeyValueObserver.swift */,
 				379FE745218A1AD400FD77FB /* ReverseExtension.swift */,
-				379FE747218A1AD400FD77FB /* UITableViewDelegateTransporter.swift */,
 				3759094D218A1A240012C7DE /* ReverseExtension.h */,
 				3759094E218A1A240012C7DE /* Info.plist */,
 			);
@@ -80,7 +77,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				379FE74B218A1AD400FD77FB /* DelegateTransporter.h in Headers */,
+				379FE74B218A1AD400FD77FB /* _NSObjectProxy.h in Headers */,
 				379FE74D218A1AD400FD77FB /* ExceptionHandler.h in Headers */,
 				3759094F218A1A240012C7DE /* ReverseExtension.h in Headers */,
 			);
@@ -157,9 +154,8 @@
 			files = (
 				379FE749218A1AD400FD77FB /* ExceptionHandler.m in Sources */,
 				379FE74C218A1AD400FD77FB /* ReverseExtension.swift in Sources */,
-				379FE74F218A1AD400FD77FB /* DelegateTransporter.m in Sources */,
+				379FE74F218A1AD400FD77FB /* _NSObjectProxy.m in Sources */,
 				379FE74A218A1AD400FD77FB /* KeyValueObserver.swift in Sources */,
-				379FE74E218A1AD400FD77FB /* UITableViewDelegateTransporter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

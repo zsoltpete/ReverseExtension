@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "DelegateTransporter.h"
+#import "_NSObjectProxy.h"
 #import "ExceptionHandler.h"
 
 //! Project version number for ReverseExtension.
