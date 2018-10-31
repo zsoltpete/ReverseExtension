@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ReverseExtensionSample.xcodeproj">
+      location = "group:../ReverseExtension.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "container:ReverseExtensionSample.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,0 +1,3 @@
+[submodule "ReverseExtensionSample/Carthage/Checkouts/TouchVisualizer"]
+	path = ReverseExtensionSample/Carthage/Checkouts/TouchVisualizer
+	url = https://github.com/morizotter/TouchVisualizer.git
