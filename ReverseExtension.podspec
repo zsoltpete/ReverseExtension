@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ReverseExtension'
-  s.version          = '0.5.0'
+  s.name             = 'ReverseExtensionSwift5'
+  s.version          = '0.7.0'
   s.summary          = 'UITableView extension that enabled to insert cell from bottom of tableView.'
 
 # This description is used to generate tags and improve search results.
@@ -21,14 +21,13 @@ Pod::Spec.new do |s|
 # TODO: Add long description of the pod here.
 #                       DESC
 
-  s.homepage         = 'https://github.com/marty-suzuki/ReverseExtension'
+  s.homepage         = 'https://github.com/zsoltpete/ReverseExtension'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'marty-suzuki' => 's1180183@gmail.com' }
-  s.source           = { :git => 'https://github.com/marty-suzuki/ReverseExtension.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/marty_suzuki'
+  s.author           = { 'zsoltpete' => 'pete.zsolt95@gmail.com' }
+  s.source           = { :git => 'https://github.com/zsoltpete/ReverseExtension.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ReverseExtension/*.{swift,h,m}'
 
